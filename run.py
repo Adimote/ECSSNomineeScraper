@@ -3,7 +3,12 @@ import requests
 from lxml import etree
 
 cookies = {
-    ## !!! YOUR COOKIES HERE !!!
+    #!!!!! YOU NEED TO FILL THESE IN !!!!!
+    # They Can all be grabbed from chrome if you click on the record button in 'network' and refresh.
+    'myecs': '<USERNAME>',
+    'ecs_intra_session': '<ECS SESSION TOKEN>',
+    'CAKEPHP': '<CAKEPHPTOKEN>',
+    'seen_cookie_notice': '1'
 }
 
 for i in xrange(300):
